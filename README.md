@@ -7,13 +7,9 @@ Apache Tomcat Version 7.0.54
 OpenJDK 64-Bit Server 1.8.0_66
 debian jessie
 
-docker build -t roadster/owf:latest
+docker pull roadster/owf
 
-	or
-
-docker pull roadster/OWF
-
-docker run -d -p 8080:8080 8443:8443 roadster/OWF
+docker run -d -p 8080:8080 8443:8443 roadster/owf
 
 Then browse to http://localhost:8080/owf
 	Username/Password: testAdmin1/password
