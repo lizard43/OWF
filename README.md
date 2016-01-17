@@ -17,4 +17,6 @@ Then browse to http://localhost:8080/owf
 Ozone Widget Framework Quick Start Guide
 https://github.com/ozoneplatform/owf-omp-docs/blob/master/OZONE%20Guides/OWF%20Quick%20Start%20Guide.pdf
 
-
+DISCLAIMER:
+I am not affiliated with nor sponsored by Next Century Corporation.
+Next Century Corporation does not endorse this Docker image.
