@@ -9,10 +9,11 @@ debian jessie
 
 docker pull roadster/owf
 
-docker run -d -p 8080:8080 8443:8443 roadster/owf
+docker run -d -p 8080:8080 -p 8443:8443 roadster/owf
 
 Then browse to http://localhost:8080/owf
-	Username/Password: testAdmin1/password
+
+Use a Username/Password: testAdmin1/password
 
 Ozone Widget Framework Quick Start Guide
 https://github.com/ozoneplatform/owf-omp-docs/blob/master/OZONE%20Guides/OWF%20Quick%20Start%20Guide.pdf
