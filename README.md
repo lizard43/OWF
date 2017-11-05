@@ -2,12 +2,11 @@
 Ozone Widget Framework (OWF) from 
 http://ozone-development.github.io/ozone-website/owf.html
 
-This version is based on OWF 7.17.0 GA
-Apache Tomcat Version 7.0.54
-OpenJDK 64-Bit Server 1.8.0_66
-debian jessie
-
-docker pull roadster/owf
+This version is based on:
+- OWF 7.17.0 GA
+- Apache Tomcat Version 7.0.54
+- OpenJDK 64-Bit Server 1.8.0_66
+- debian jessie
 
 docker run -d -p 8080:8080 -p 8443:8443 roadster/owf
 
